@@ -1,0 +1,48 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #1E90FF; /* Azul brillante */
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff; /* Texto en blanco */
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Texto en blanco */
+  margin-right: 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FFD700; /* Amarillo dorado al pasar el ratón */
+}
+
+/* Estilo para el botón de la barra lateral */
+.side-nav-button {
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.side-nav-button:hover {
+  color: #FFD700; /* Amarillo dorado al pasar el ratón */
+}
+
+/* Estilos para el menú desplegable */
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+  color: #FFD700; /* Amarillo dorado al pasar el ratón */
+}
+
+/* Estilo para el ícono de la barra lateral */
+.fa-bars {
+  color: #fff; /* Texto en blanco */
+}

@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand navbar-dark px-2">
+
+    <div class="side-nav-button p-2 me-3 text-light" (click)="SideNavToggle()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <a class="navbar-brand px-4" href="home">
+        <img src="assets/logo2.png" alt="Logo UTL"
+            style="max-height: 40px;">
+        UTL
+    </a>
+
+    <div class="navbar-collapse">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="https://www.utleon.edu.mx/zona-libre">
+                    Somos UTL
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link"
+                    routerLink="/AspirantesComponent">
+                    Aspirantes
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="EstudianteComponent">
+                    Estudiantes
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="DocenteComponent">
+                    Docente
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" routerLink="EgresadosComponent">
+                    Egresado
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="EmpresarioComponent">
+                    Empresario
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" routerLink="AdministrativoComponent">
+                    Administrativo
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
